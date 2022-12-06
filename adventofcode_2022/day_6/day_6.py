@@ -11,7 +11,7 @@ with open('input.txt') as file:
 
             # if the length is more than 4
             # we can begin doing logic
-            if len(sequence) > 4:
+            if len(sequence) > 14:
                 # remove first character so we always have 4 characters
                 sequence = sequence[1::]
 
