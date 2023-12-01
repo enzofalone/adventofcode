@@ -1,9 +1,6 @@
-
-
 with open('input.txt') as file:
     for line in file:
 
-        n = 1
         checked = dict()
         sequence = ''
         for i in range(len(line)):
